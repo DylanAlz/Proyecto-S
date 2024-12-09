@@ -1,0 +1,55 @@
+html{
+    background-color: black;
+}
+Header{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    height: 100px;
+    transition: 0.5s;
+}
+
+.logo{
+    height: 60%;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-item{
+   margin: 0 1rem;
+   font-weight: 600;
+   cursor: pointer;
+   transition: 0.5s;
+   color: azure; 
+}
+
+.cta{
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: var(--main-color);
+    color: azure;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cta:hover{
+    color: antiquewhite;
+    background-color: blue;
+}
+
+.menu-item:hover{
+    color: var(--main-color);
+}
