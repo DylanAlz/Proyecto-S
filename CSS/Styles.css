@@ -1,6 +1,18 @@
 html{
-    background-color: black;
+    background-color: #FEFAE0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #f3ca4c;
+    transition: 0.5s;
+}
+
 Header{
     height: auto;
     width: 100%;
@@ -12,12 +24,14 @@ Header{
     align-items: center;
     padding: 0 5%;
     box-sizing: border-box;
-    height: 100px;
+    height: 85px;
     transition: 0.5s;
+    background-color: black;
+
 }
 
 .logo{
-    height: 60%;
+    height: 100%;
 }
 
 .main-menu{
@@ -32,24 +46,24 @@ Header{
    font-weight: 600;
    cursor: pointer;
    transition: 0.5s;
-   color: azure; 
+   color: white; 
 }
 
 .cta{
     padding: 10px 24px;
     border-radius: 30px;
     background-color: var(--main-color);
-    color: azure;
+    color: white;
     font-weight: 600;
     cursor: pointer;
     transition: 0.5s;
 }
 
 .cta:hover{
-    color: antiquewhite;
+    color: white;
     background-color: blue;
 }
 
 .menu-item:hover{
-    color: var(--main-color);
+    color: #f3ca4c;
 }
